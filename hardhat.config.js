@@ -6,7 +6,7 @@ module.exports = {
   defaultNetwork: "hardhat",
   networks: {
     hardhat: {
-      chainId: 1337,
+      chainId: 2330,
     },
     //  unused configuration commented out for now
     //  mumbai: {
