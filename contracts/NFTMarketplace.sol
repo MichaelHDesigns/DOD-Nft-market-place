@@ -51,7 +51,7 @@ contract NFTMarketPlace is ERC721A, IERC721Receiver{
       bool sold
     );
 
-    constructor() ERC721A("Dod Token", "DODNFTs") {
+    constructor() ERC721A("ALT NFT Token", "ANFT") {
         owner = payable(msg.sender);
     }
 
